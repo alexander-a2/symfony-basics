@@ -1,0 +1,17 @@
+{
+    "name": "alexander-a2/symfony-basics",
+    "description": "Basic stuff like Locales, Logger etc.",
+    "autoload": {
+        "psr-4": {
+            "AlexanderA2\\SymfonyBasics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "alexander.advanced@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
