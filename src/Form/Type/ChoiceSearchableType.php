@@ -11,11 +11,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class ChoiceSearchableType extends AbstractType
 {
-    public function __construct(
-        protected ParameterBagInterface $parameters,
-    ) {
-    }
-
     public function buildView(FormView $view, FormInterface $form, array $options)
     {
         $view->vars['attr']['data-search-picker'] = '1';
