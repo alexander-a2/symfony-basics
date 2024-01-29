@@ -22,3 +22,9 @@ next way:
     enabled_locales:
         - en
         - ua`
+
+Whats inside:
+
+Date/time picker form type:
+    `$builder->add('date', DateTimePickerType::class)`
+    https://xdsoft.net/jqplugins/datetimepicker/
